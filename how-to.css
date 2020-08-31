@@ -1,0 +1,145 @@
+.header {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.step-right {
+  padding: 2px;
+  position: relative;
+  float: left;
+  text-align: left;
+}
+
+.step-left {
+  padding: 2px;
+  text-align: right;
+  position: relative;
+  float: right;
+}
+
+.step-header-right {
+  display: flex;
+  margin-top: 20px;
+  margin-right: auto;
+  background-color: #D32D2D;
+  border-radius: 40px 40px 40px 0px;
+  border: 2px solid #fff;
+  padding: 1.7em;
+  height: 40px;
+  width: 160px;
+  position: relative;
+  align-items: center;
+  color: #fff;
+}
+
+.step-header-right:before {
+  display: flex;
+  margin-right: auto;
+  background: none;
+  border-radius: 40px 40px 40px 0px;
+  border: 2px solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  pointer-events: none;
+  align-items: center;
+  color: #fff;
+}
+
+.step-header-left {
+  display: flex;
+  margin-left: auto;
+  background-color: #D32D2D;
+  border-radius: 40px 40px 0px 40px;
+  border: 2px solid #fff;
+  padding: 1.7em;
+  height: 40px;
+  width: 160px;
+  position: relative;
+  align-items: center;
+  color: #fff;
+}
+
+.step-header-left:before {
+  display: flex;
+  margin-left: auto;
+  background: none;
+  border-radius: 40px 40px 0px 40px;
+  border: 2px solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  pointer-events: none;
+  align-items: center;
+  color: #fff;
+}
+
+.separator {
+  /* margin: auto; */
+  border-left: 6px dotted #5e629c;
+  height: 50px;
+  margin-left: 12px;
+  align-content: center;
+  top: 0;
+}
+
+.separator-one {
+  background-color: #329244;
+  border: 2px solid #fff;
+  padding: 1em;
+  border-radius: 35px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  /* margin: 0 auto; */
+}
+
+.separator-one:before {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  pointer-events: none;
+}
+
+.separator-two {
+  background-color: #D32D2D;
+  border: 2px solid #fff;
+  padding: 1em;
+  border-radius: 35px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  /* margin: 0 auto; */
+}
+
+.separator-two:before {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  pointer-events: none;
+}
